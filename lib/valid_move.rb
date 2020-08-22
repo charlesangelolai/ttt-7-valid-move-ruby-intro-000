@@ -4,7 +4,7 @@ def valid_move?(board, index)
     true
   end
   if position_taken(board, index) == true
-    nil
+    return nil
   end
 end
 
